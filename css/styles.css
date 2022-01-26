@@ -1,0 +1,22 @@
+
+.list { 
+    list-style: none;
+}
+
+.menu-link {
+    display: block;
+
+    padding: 20px;
+    text-decoration: none;
+
+    color: teal;
+    background-color: black;
+}
+
+.submenu {
+    display: none;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
